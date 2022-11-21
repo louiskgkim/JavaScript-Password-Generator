@@ -13,10 +13,10 @@ function questions() {
   var isValid = false;
   do {
     var length = prompt("Choose a password length between 8 and 128 characters");
-    var askNumbers = confirm("Do you want your password to include numbers?");
-    var askUpperCase = confirm("Do you want your password to include uppercase letters?");
-    var askLowerCase = confirm("Do you want your password to include lowercase letters?");
-    var askSpecial = confirm("Do you want your password to include special characters?");
+    var askNumbers = confirm("Would you like your password to include numbers?");
+    var askUpperCase = confirm("Would you like your password to include uppercase letters?");
+    var askLowerCase = confirm("Would you like your password to include lowercase letters?");
+    var askSpecial = confirm("Would you like your password to include special characters?");
     var responses = {
       length : length,
       askNumbers : askNumbers,
@@ -27,7 +27,7 @@ function questions() {
     if ((length < 8)||(length > 128))
       alert("Please choose a number between 8 and 128.");
       else if((!askNumbers)&&(!askUpperCase)&&(!askLowerCase)&&(!askSpecial))
-      alert("You must choose at least one type.");
+      alert("Error. You must choose at least one type.");
       else
       isValid = true;
   } while(!isValid);
