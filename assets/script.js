@@ -57,6 +57,8 @@ function generatePassword() {
     possibleCombo.push(i);
   }
 
+  // Got some assistance from a friend regarding the if statements as I was stuck on this one for awhile
+
   console.log(possibleCombo);
 
   for (var i = 0; i < passwordOptions.length; i++) {
