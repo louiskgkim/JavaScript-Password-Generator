@@ -37,7 +37,7 @@
 Open your web browser and enter the following web address to access:
 
 ```html
-<!-- add live link once published -->
+https://louiskgkim.github.io/JavaScript-Password-Generator/
 ```
 <a name="us&uc"></a>
 ## 3. User Story & Acceptance Criteria
