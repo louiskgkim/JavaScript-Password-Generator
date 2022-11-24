@@ -15,8 +15,6 @@ var special = '{)}(]~[-_./!#$@^%?:%+)'.split(
   ''
 );
 
-[")", "(", "}", "{", "]", "[", "~", "-", "_", ".", "/", "!", "#", "$", "^", "?", ":", "@", "%", "+"];
-
 // Function to prompt user options for password and minimum requirements
 function questions() {
   var isValid = false;
